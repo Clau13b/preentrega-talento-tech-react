@@ -1,0 +1,15 @@
+.baner{
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNvbWVyY2lvc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500");
+}
+.baner-container{
+    text-align: center;
+    padding: 15% 0;
+
+}
+.titulo{
+    color: antiquewhite;
+    font-size: 40px;
+}

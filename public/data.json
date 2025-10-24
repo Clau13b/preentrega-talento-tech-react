@@ -1,0 +1,27 @@
+[
+    {"id":1,
+    "name":"Cartera",
+    "price":60000,
+    "img":"https://fastly.picsum.photos/id/290/200/300.jpg?hmac=kjRyFwJ6i5kuROjzxcs6QbXbBr8EptbH5AuVxtMxhQ0",
+    "quanty":1
+},
+{"id":2,
+    "name":"Reloj",
+    "price":30000,
+    "img":"https://fastly.picsum.photos/id/290/200/300.jpg?hmac=kjRyFwJ6i5kuROjzxcs6QbXbBr8EptbH5AuVxtMxhQ0",
+    "quanty":1
+},
+{"id":3,
+    "name":"Hebilla",
+    "price":10000,
+    "img":"https://fastly.picsum.photos/id/290/200/300.jpg?hmac=kjRyFwJ6i5kuROjzxcs6QbXbBr8EptbH5AuVxtMxhQ0",
+    "quanty":1
+},
+{"id":4,
+    "name":"Billetera",
+    "price":10000,
+    "img":"https://fastly.picsum.photos/id/290/200/300.jpg?hmac=kjRyFwJ6i5kuROjzxcs6QbXbBr8EptbH5AuVxtMxhQ0",
+    "quanty":1
+}
+
+]
