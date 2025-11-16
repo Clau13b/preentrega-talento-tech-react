@@ -3,7 +3,8 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
-import CardContent from './Components/CardContent/CardContent.jsx'
+import CartContent from './Components/CartContent/CartContent.jsx'
+import ContexProvider from './Context/Context.jsx'
 
 
 const router=createBrowserRouter([
@@ -13,15 +14,17 @@ const router=createBrowserRouter([
   element:<App/>
 },
 {     
-  path:"/card",
-  element:<CardContent/>
-}
+  path:"/cart",
+  element:<CartContent/>
+},
 
 ])
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}/>
+    <ContexProvider>
+       <RouterProvider router={router}/>
+    </ContexProvider>
   </StrictMode>,
 )

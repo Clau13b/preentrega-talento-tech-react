@@ -1,15 +1,15 @@
-import './Navbar.css'
-import { Link } from 'react-router-dom'
+import './NavBar.css'
+import {Link} from 'react-router-dom'
 
 
-function Navbar() {
+const NavBar =() => {
   return (
     <div className="nav-container">
         <nav className="navbar">
             <Link to='/'>
-            <h1 className="navbar-logo">TiendaShop</h1>
+            <h1 className="navbar-logo">TiendaShop.</h1>
             </Link>
-            <Link to ='/CardContent'>
+            <Link to ='/cart'>
             <h2 className="navbar-cart">Carrito</h2>
             </Link>
         </nav>
@@ -17,4 +17,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default NavBar

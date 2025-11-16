@@ -1,5 +1,5 @@
 import Baners from "../Baners/Baners"
-import Navbar from "../Navbar/Navbar"
+import NavBar from "../NavBar/NavBar"
 import Products from "../Products/Products"
 
 
@@ -7,7 +7,7 @@ import Products from "../Products/Products"
 const Home = ()=>{
     return(
     <>
-    <Navbar/>
+    <NavBar/>
     <Baners/>
     <div className="produc-container-card">
     <Products/>
